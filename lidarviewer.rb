@@ -8,7 +8,7 @@ class Lidarviewer < Formula
   url "https://github.com/KeckCAVES/LidarViewer.git", :revision => "v#{ver}"
   version "#{ver}-#{pkgver}"
 
-  depends_on 'gfacciol/keckcaves/vrui'
+  depends_on 'carlodef/keckcaves/vrui'
 
   # Patch for Yosemite & ElCapitan to fix the error
   # "error: cast from pointer to smaller type 'GLuint' (aka 'unsigned int') loses information"
