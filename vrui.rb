@@ -61,5 +61,6 @@ class Vrui < Formula
 
     system "make", *args
     system "make", *(args+["install"])
+    system "make", *(args+["installudevrules"])
   end
 end
